@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const color = require("./color")
+const colors = require("./colors")
 
 module.exports = {
   content: [
@@ -8,9 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      color,
-      ring: color,
-      fill: color,
+      colors,
+      ring: colors,
+      fill: colors,
       fontFamily: {
         sans: ['Poppins'],
       }

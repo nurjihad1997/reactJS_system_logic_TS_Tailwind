@@ -1,7 +1,8 @@
-import {Meta, Canvas, Story, Source} from "@storybook/addon-docs"
-import dedent from "ts-dedent"
+import {Meta, Canvas, Story, Source} from "@storybook/addon-docs";
+import dedent from "ts-dedent";
+import "assets/css/index.css";
 
-import Sample from "./example/Sample";
+import Badge from "./example/Sample";
 
 <Meta title="Components/Badge" />
 
@@ -10,9 +11,7 @@ import Sample from "./example/Sample";
 A most import component that simply let user interact with the app, [[Default Example](/docs/components-badge-example--success)] if you want to see in action
 
 export const Template = (args) => <Badge {...args} />
-Template.args = {
-    state: "success"
-}
+
 
 <Story name="Introduction" args={{}}>
     {Template.bind({})}
