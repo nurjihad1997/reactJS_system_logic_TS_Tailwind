@@ -4,6 +4,6 @@ export default create({
     base: 'light',
     brandTitle: 'systemlogic',
     brandUrl: 'https://systemlogic-reactjs-tailwinds.netlify.app/',
-    brandImage: '/Logo.png',
+    // brandImage: '/Logo.png',
     brandTarget: '_self',
   });
